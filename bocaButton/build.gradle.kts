@@ -50,7 +50,6 @@ dependencies {
                 groupId = "com.github.MarcosConforti"
                 artifactId = "ButtonProject"
                 version = "1.0.0"
-
                 afterEvaluate {
                     from(components["release"])
                 }
