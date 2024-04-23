@@ -54,6 +54,9 @@ publishing {
             afterEvaluate {
                 from(components["release"])
             }
+            repositories {
+                mavenLocal()
+            }
         }
     }
 }
